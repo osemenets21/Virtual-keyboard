@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 241, 153);
+}
+.second_task {
+  width: 100%;
+  min-height: 100px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.Keyboard,
+.blackboard {
+ margin: 0 auto;
+  width: 1100px;
+  
+}
+
+.Keyboard {
+  font-size: 20px;
+  height: 300px;
+  
+}
+
+.blackboard {
+  border-radius: 10px;
+  opacity: 80%;
+  min-height: 150px;
+  margin-bottom: 10px;
+  padding: 30px;
+  background-color: rgb(195, 230, 151);
+  box-shadow: 1px 5px 10px  rgb(75, 150, 73);
+  word-wrap: break-word;
+  font-size: 25px;
+  border: 2px solid white;
+
+
+}
+.keyboard_row {
+  height: 50px;
+  width: 1100px;
+  margin: 10px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.keyboard_row_buttons {
+  width: 70px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px rgb(95, 180, 92);
+  background-color: rgb(159, 210, 97);
+  text-align: center;
+  line-height: 50px;
+  border: 2px solid white;
+  font-family: 'Cardo';
+  font-size: 18px;
+}
+
+.keyboard_row_space {
+  width: 1100px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px rgb(95, 180, 92);
+  background-color: rgb(159, 210, 97);
+  border: 2px solid white;
+
+}
+
+.backspace,
+.capslock,
+.enter {
+  text-align: center;
+  line-height: 50px;
+  width: 100px;
+  color: rgb(148, 219, 91);
+  color: rgb(22, 30, 18);
+}
+
+.capslock {
+  position: relative;
+}
+
+.mark {
+  width: 7px;
+  height: 7px;
+  background-color: rgb(243, 247, 25);
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.active {
+  background-color: rgb(75, 150, 73);
+}
+
+.opasity {
+  opacity: 100%;
+}
+.tab {
+  width: 80px;
+  
+}
+
+.shift {
+  width: 120px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.keyboard_row_buttons:active,
+.keyboard_row_space:active {
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.h{
+  background-color: rgb(137, 97, 210);
+}
+.p{
+  background-color: rgb(75, 150, 73);
+}
